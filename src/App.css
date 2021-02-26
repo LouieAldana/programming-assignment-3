@@ -17,4 +17,5 @@
 }
 .nav-bar {
   display: flex;
+  padding: 14px 16px; 
 }

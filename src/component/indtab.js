@@ -5,7 +5,7 @@ function Itab(props) {
 
 
     const addstyle = () => {
-        if (props.out.id == props.activetab) {
+        if (props.out.id === props.activetab) {
             return { backgroundColor: 'red' }
         }
         else {

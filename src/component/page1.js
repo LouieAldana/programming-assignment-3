@@ -10,11 +10,11 @@ function Videodata() {
             <body>
 
 
-                <div className="row">
-                    <div className="column">
-                        <iframe src="https://www.youtube.com/embed/AIJ4gKCdVE4" frameBorder="0" allow="accelerate"></iframe>
-                    </div>
-
+                <div className="grid2">
+                    <iframe src="https://www.youtube.com/embed/4GnVDPD01as" frameBorder="0" allow="accelerate"></iframe>
+                    <iframe src="https://www.youtube.com/embed/8dXF7y1QUxU" frameBorder="0" allow="accelerate"></iframe>
+                    <iframe src="https://www.youtube.com/embed/QAoqPQFXFqI" frameBorder="0" allow="accelerate"></iframe>
+                    <iframe src="https://www.youtube.com/embed/1XO0SqsZhHU" frameBorder="0" allow="accelerate"></iframe>
                 </div>
 
 
@@ -22,7 +22,8 @@ function Videodata() {
 
             </body>
 
-        </div>
+        </div >
+
     )
 }
 
