@@ -2,30 +2,29 @@ import React from "react"
 import ReactDOM from "react-dom"
 import './style.css';
 
-
-function Emaildata() {
+function Tabledata() {
     return (
+        //only one element allowed
         <div>
+
             <body>
-                <div class="mail">
-                    <h2>Enter email to Validate</h2>
-                    <form name="form1" action="#">
-                        <ul>
-                            <li><input type='text' name='text1' /></li>
-                            <li>
-                                <div class="msg"></div>
-                            </li>
-                            <li class="Validate"><input type="submit" name="Validate" value="Validate"
-                                onclick="ValidateEmail(document.form1.text1)" /></li>
-                            <li> </li>
-                        </ul>
-                    </form>
+
+
+                <div className="grid2">
+                    <iframe src="https://www.youtube.com/embed/4GnVDPD01as" frameBorder="0" allow="accelerate"></iframe>
+                    <iframe src="https://www.youtube.com/embed/8dXF7y1QUxU" frameBorder="0" allow="accelerate"></iframe>
+                    <iframe src="https://www.youtube.com/embed/QAoqPQFXFqI" frameBorder="0" allow="accelerate"></iframe>
+                    <iframe src="https://www.youtube.com/embed/1XO0SqsZhHU" frameBorder="0" allow="accelerate"></iframe>
                 </div>
 
+
+
+
             </body>
+
         </div >
+
     )
 }
 
-
-export default Emaildata
+export default Tabledata

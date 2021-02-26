@@ -3,7 +3,6 @@ import ReactDOM from "react-dom"
 import './style.css';
 
 
-
 const lightbox = document.createElement('div')
 lightbox.id = 'lightbox'
 document.body.appendChild(lightbox)

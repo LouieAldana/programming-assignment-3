@@ -2,7 +2,7 @@ import React from "react"
 import ReactDOM from "react-dom"
 import './style.css';
 
-function Videodata() {
+function Textdata() {
     return (
         //only one element allowed
         <div>
@@ -27,4 +27,4 @@ function Videodata() {
     )
 }
 
-export default Videodata
+export default Textdata

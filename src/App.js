@@ -10,7 +10,7 @@ function App() {
   const [active, setactive] = useState(1)
   const tabs = [{
     id: 1,
-    title: 'Video'
+    title: 'Text'
   },
   {
     id: 2,
@@ -18,11 +18,15 @@ function App() {
   },
   {
     id: 3,
-    title: 'table'
+    title: 'Video'
   },
   {
     id: 4,
-    title: 'email'
+    title: 'Table'
+  },
+  {
+    id: 5,
+    title: 'Email'
   }
   ]
   const changetab = (id) => {
@@ -31,7 +35,7 @@ function App() {
   return (
 
     <div className="App">
-      <h1>Tabs Demo</h1>
+      <h1>Programming Assignment 3</h1>
       <div className="nav-bar">
         <Tablist tabs={tabs} activetab={active} ctab={changetab} />
       </div>
