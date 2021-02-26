@@ -1,10 +1,15 @@
 import React from "react"
 import ReactDOM from "react-dom"
 import './style.css';
+const msg = document.querySelector('.msg');
+const emailInput = document.querySelector('#email');
+
 
 
 function Emaildata() {
+
     return (
+
         <div>
             <body>
                 <div class="mail">
@@ -26,6 +31,5 @@ function Emaildata() {
         </div >
     )
 }
-
 
 export default Emaildata

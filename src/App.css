@@ -1,59 +1,19 @@
-/* .tablist {
-  border-bottom: 1px solid #ccc;
-  padding-left: 0;
-} */
 
-/* .tab-list-item {
-  display: inline-block;
-  list-style: none;
-  margin-bottom: -1px;
-  padding: 0.5rem 0.75rem;
-} */
-
-/* .tab-list-active {
-  background-color: white;
-  border: solid #ccc;
-  border-width: 1px 1px 0 1px;
-} */
-
+/* this is the correct .nav-bar */
 .nav-bar {
   display: flex;
   padding: 14px 16px; 
-  background-color: #333;
-  color: #f2f2f2;
+  background-color: #f2f2f2;
+  color: #333;
   font-size: 20px;
+  cursor: pointer;
 }
-
-
-
-
-
-
-
- /* Add a black background color to the top navigation */
- .topnav {
-  background-color: #333;
-  overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
 /* Change the color of links on hover */
-.topnav a:hover {
+.nav-bar :hover {
   background-color: #ddd;
   color: black;
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
+.main-body{
+  padding: 14px 16px; 
 }
