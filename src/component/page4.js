@@ -10,12 +10,36 @@ function Tabledata() {
             <body>
 
 
-                <div className="grid2">
-                    <iframe src="https://www.youtube.com/embed/4GnVDPD01as" frameBorder="0" allow="accelerate"></iframe>
-                    <iframe src="https://www.youtube.com/embed/8dXF7y1QUxU" frameBorder="0" allow="accelerate"></iframe>
-                    <iframe src="https://www.youtube.com/embed/QAoqPQFXFqI" frameBorder="0" allow="accelerate"></iframe>
-                    <iframe src="https://www.youtube.com/embed/1XO0SqsZhHU" frameBorder="0" allow="accelerate"></iframe>
-                </div>
+                <table class="style1">
+                    <tr>
+                        <td>
+                            Name</td>
+                        <td>
+                            Details</td>
+                        <td>
+                            Year</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a
+                                href="https://www.sciencenews.org/article/most-ancient-supermassive-black-hole-quasar-bafflingly-big">Black
+                        holes</a>
+                        </td>
+                        <td>
+                            The most ancient black hole ever discovered is so big it defies explanation.&nbsp;</td>
+                        <td>
+                            2021&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="https://www.popsci.com/story/science/how-old-is-the-universe/">Universe Age</a>
+                        </td>
+                        <td>
+                            The universe is 13.8 billion years old-here how we know</td>
+                        <td>
+                            2021&nbsp;</td>
+                    </tr>
+                </table>
 
 
 
