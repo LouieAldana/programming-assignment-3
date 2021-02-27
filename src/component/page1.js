@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-const msg = document.querySelector('.msg');
 
 class App extends Component {
     state = {
@@ -18,7 +17,7 @@ class App extends Component {
 
 
     render() {
-        const { value, value2 } = this.state;
+        const { value } = this.state;
         return (
             <form>
                 <label>
