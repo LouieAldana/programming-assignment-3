@@ -48,6 +48,7 @@ class App extends Component {
                 <br />
                 <label>
                     <input type="radio"
+                        value="dark knight"
                         name="value"
                         checked={value === "dark knight"}
                         onChange={this.onChange} />
