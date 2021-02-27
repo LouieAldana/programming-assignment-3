@@ -1,30 +1,78 @@
-import React from "react"
-import ReactDOM from "react-dom"
-import './style.css';
+import React, { Component } from 'react';
+const msg = document.querySelector('.msg');
+
+class App extends Component {
+    state = {
+        value: "",
+    };
+
+    onChange = e => {
+        this.setState({ [e.target.name]: e.target.value })
+    }
+    myChangeHandler = (event) => {
+        this.setState({ username: event.target.value });
+    }
+    myChangeHandler = (event) => {
+        this.setState({ username: event.target.value });
+    }
 
 
-function Textdata() {
-    return (
-        //only one element allowed
-        <div>
+    render() {
+        const { value, value2 } = this.state;
+        return (
+            <form>
+                <label>
+                    First Name:
+                    </label>
+                <br />
+                <input
+                    type='text' onChange={this.myChangeHandler}
+                />
+                <br />
+                <label>
+                    Last Name:
+                    </label>
+                <br />
+                <input
+                    type='text' onChange={this.myChangeHandler}
+                />
+                <h4>Favorite movie: {value}</h4>
+                <label>
+                    <input type="radio"
+                        value="avengers"
+                        name="value"
+                        checked={value === "avengers"}
+                        onChange={this.onChange} />
+                        Avengers
+                </label>
+                <br />
+                <label>
+                    <input type="radio"
+                        name="value"
+                        checked={value === "dark knight"}
+                        onChange={this.onChange} />
+                        Dark Knight
+                </label>
+                <br />
+                <label>
+                    <input type="radio"
+                        value="tenet"
+                        name="value"
+                        checked={value === "tenet"}
+                        onChange={this.onChange} />
+                        Tenet
+                </label>
+                <br />
+                <button type="submit">
+                    Done</button>
 
-            <body>
-                <button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>
+            </form>
 
-                <div className="grid2">
-                    <iframe title="Study Music" src="https://www.youtube.com/embed/4GnVDPD01as" frameBorder="0" allow="accelerometer"></iframe>
-                    <iframe title="Ice Age" src="https://www.youtube.com/embed/8dXF7y1QUxU" frameBorder="0" allow="accelerometer"></iframe>
-                    <iframe title="Cave Man" src="https://www.youtube.com/embed/QAoqPQFXFqI" frameBorder="0" allow="accelerometer"></iframe>
-                    <iframe title="Soothing Rain" src="https://www.youtube.com/embed/1XO0SqsZhHU" frameBorder="0" allow="accelerometer"></iframe>
-                </div>
+        )
 
+    }
 
-            </body>
-
-        </div >
-
-    )
 
 }
 
-export default Textdata
+export default App;
