@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.09cce004.chunk.css",
+    "main.js": "/static/js/main.734ecd91.chunk.js",
+    "main.js.map": "/static/js/main.734ecd91.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.16747ccb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.16747ccb.js.map",
+    "static/js/2.93669b6a.chunk.js": "/static/js/2.93669b6a.chunk.js",
+    "static/js/2.93669b6a.chunk.js.map": "/static/js/2.93669b6a.chunk.js.map",
+    "static/js/3.04006f1b.chunk.js": "/static/js/3.04006f1b.chunk.js",
+    "static/js/3.04006f1b.chunk.js.map": "/static/js/3.04006f1b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.09cce004.chunk.css.map": "/static/css/main.09cce004.chunk.css.map",
+    "static/js/2.93669b6a.chunk.js.LICENSE.txt": "/static/js/2.93669b6a.chunk.js.LICENSE.txt",
+    "static/media/drops.img": "/static/media/drops.ede02ca2.img",
+    "static/media/giraffe.img": "/static/media/giraffe.b9fb1234.img",
+    "static/media/ladybug.img": "/static/media/ladybug.230c4842.img",
+    "static/media/lake.img": "/static/media/lake.3fad6e99.img",
+    "static/media/lightning.img": "/static/media/lightning.71bddcad.img",
+    "static/media/mantis.img": "/static/media/mantis.20b5bd56.img",
+    "static/media/piglet.img": "/static/media/piglet.76854a74.img",
+    "static/media/river.img": "/static/media/river.b6051f43.img"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.16747ccb.js",
+    "static/js/2.93669b6a.chunk.js",
+    "static/css/main.09cce004.chunk.css",
+    "static/js/main.734ecd91.chunk.js"
+  ]
+}
