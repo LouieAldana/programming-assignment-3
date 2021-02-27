@@ -71,10 +71,9 @@
 
   /* email */
     .mail {
-    margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 800px;
+    width: 500px;
     background : rgb(153, 198, 211);
     border: 1px soild rgb(1, 20, 24);
     }
