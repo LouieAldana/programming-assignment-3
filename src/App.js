@@ -28,6 +28,10 @@ function App() {
   {
     id: 5,
     title: 'Email'
+  },
+  {
+    id: 6,
+    title: 'Zoom'
   }
   ]
   const changetab = (id) => {
@@ -36,7 +40,7 @@ function App() {
   return (
 
     <div className="App">
-      <h1>Programming Assignment 3</h1>
+      <h1>Assignment 4</h1>
       <div className="nav-bar">
         <Tablist tabs={tabs} activetab={active} ctab={changetab} />
       </div>

@@ -4,6 +4,7 @@ import Imagedata from './page2';
 import Videodata from './page3';
 import Tabledata from './page4';
 import Emaildata from './page5';
+import Zoomdata from './page6';
 import './style.css'
 
 class Body extends Component {
@@ -21,8 +22,10 @@ class Body extends Component {
                 return <Videodata />
             } else if (activetab === 4) {
                 return <Tabledata />
-            } else {
+            } else if (activetab === 5) {
                 return <Emaildata />
+            } else {
+                return <Zoomdata />
             }
         }
 
