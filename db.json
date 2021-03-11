@@ -1,25 +1,3 @@
 {
-  "tasks": [
-    {
-      "id": 3,
-      "important": false,
-      "title": "Game Night",
-      "day": "2021-03-05T23:00",
-      "textInfor": "https://ucsb.us/j/8311826784"
-    },
-    {
-      "title": "new meeting",
-      "day": "2021-02-27T00:30",
-      "textInfor": "https://ucsb.zoom.us/j/8311826784",
-      "important": false,
-      "id": 4
-    },
-    {
-      "id": 5,
-      "important": true,
-      "title": "myMeeting",
-      "day": "2022-03-22T07:00:00.000Z",
-      "textInfor": "https://ucsb.zoom.us/j/8311826784"
-    }
-  ]
+  "tasks": []
 }

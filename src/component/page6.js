@@ -1,13 +1,17 @@
 import { Component, React } from 'react';
 import './style.css';
-
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
 class Zoomdata extends Component {
 
     constructor(props) {
         super(props);
         this.state = {
             message: '',
-            email: ''
+            email: '',
+            task: '',
+            dateTime: new Date(),
+            zoomLink: '',
         };
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
@@ -36,17 +40,34 @@ class Zoomdata extends Component {
         inputText.preventDefault();
     }
 
-
     render() {
         return (
-            <div class="mail">
-                <h2>Enter email to Validate</h2>
-                <form name="email" onSubmit={this.handleSubmit}>
-                    <input type='text' name='input' value={this.state.email} onChange={this.handleChange} />
-                    <br />
-                    <input type='submit' value='Submit' />
-                    <p id="submitMsg">{this.state.message}</p>
-                </form>
+            <div class="container">
+                <div>Zoom meeting Manager</div>
+                <button>Full Schedule</button>
+                <Form>
+                    <Form.Group controlId="formBasicEmail">
+                        <Form.Label>Add Task</Form.Label>
+                        <Form.Control type="text" placeholder="Add Task" />
+                    </Form.Group>
+
+                    <Form.Group controlId="formBasicPassword">
+                        <Form.Label>Date</Form.Label>
+                        <Form.Control type="password" placeholder="Password" />
+                    </Form.Group>
+// when user add new meeting, do you store it to somewhere such as DB ?
+                    <Form.Group controlId="formBasicPassword">
+                        <Form.Label>Zoom Link</Form.Label>
+                        <Form.Control type="password" placeholder="Zoom link to meeting" />
+                    </Form.Group>
+
+                    <Form.Group controlId="formBasicCheckbox">
+                        <Form.Check type="checkbox" label="Important" />
+                    </Form.Group>
+                    <Button variant="primary" type="submit">
+                        Save Information
+                    </Button>
+                </Form>
             </div>
         );
     }
