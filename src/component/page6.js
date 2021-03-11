@@ -55,7 +55,6 @@ class Zoomdata extends Component {
                         <Form.Label>Date</Form.Label>
                         <Form.Control type="password" placeholder="Password" />
                     </Form.Group>
-// when user add new meeting, do you store it to somewhere such as DB ?
                     <Form.Group controlId="formBasicPassword">
                         <Form.Label>Zoom Link</Form.Label>
                         <Form.Control type="password" placeholder="Zoom link to meeting" />
